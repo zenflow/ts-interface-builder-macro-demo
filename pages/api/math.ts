@@ -1,16 +1,24 @@
 import { NextApiRequest, NextApiResponse } from "next";
 import { getCheckers } from "@zen_flow/ts-interface-builder/macro";
 
+// Get an object that has a `Checker` for each type in this module
 export const checkers = getCheckers();
 
 export default handler;
 
-function handler(req: NextApiRequest, res: NextApiResponse<MathOutput>) {
+function handler(
+  req: NextApiRequest,
+  // Declare the type of object `res.json()` can be called with
+  res: NextApiResponse<MathOutput>
+) {
+  // Try to get a `MathInput` from `req.body`
   let input: MathInput | undefined;
-
   try {
+    // Parse input JSON (may throw error)
     const parsed = JSON.parse(req.body);
+    // Check that parsed input is a `MathInput` (may throw error)
     checkers.MathInput.check(parsed);
+    // Since last line didn't throw, we know the parsed json is a `MathInput`
     input = parsed as MathInput;
   } catch (error) {
     const clientError: ClientError = {
