@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from "next";
-import { makeCheckers } from "@zen_flow/ts-interface-builder/macro";
+import { getCheckers } from "@zen_flow/ts-interface-builder/macro";
 
-export const checkers = makeCheckers();
+export const checkers = getCheckers();
 
 export default handler;
 

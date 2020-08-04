@@ -1226,12 +1226,11 @@
   resolved "https://registry.yarnpkg.com/@xtuc/long/-/long-4.2.2.tgz#d291c6a4e97989b5c61d9acf396ae4fe133a718d"
   integrity sha512-NuHqBY1PB/D8xU6s/thBgOAiAP7HOYDQ32+BFZILJ8ivkUkAHQnWfn6WhL79Owj1qmUnoN/YPhktdIoucipkAQ==
 
-"@zen_flow/ts-interface-builder@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@zen_flow/ts-interface-builder/-/ts-interface-builder-0.3.0.tgz#f162a87530bac1120fb730a6175ed93623e286c6"
-  integrity sha512-u/3nCJpb6JrM7SwRW8S+YIN9U5Y2VmIXGjosHuAK9Uh1juNgQQK9P+81zquJ1eoAFO5GGBbYHAtjO+ckRERZgg==
+"@zen_flow/ts-interface-builder@^0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@zen_flow/ts-interface-builder/-/ts-interface-builder-0.3.1.tgz#55ef33b5a8bd0e2e56ea6b576deaaf2a6e2929a9"
+  integrity sha512-mWXIvuLBoo1TTnpCdA7GL5TYGGlyqpx/fa0z7AXS8C66EhDjE5ihyALLlO9z4BXWzJY9MXf/vcLarmqEoxF9yw==
   dependencies:
-    babel-plugin-macros "^2.8.0"
     commander "^2.12.2"
     fs-extra "^4.0.3"
     typescript "^3.0.0"
@@ -5348,10 +5347,10 @@ traverse@0.6.6:
   resolved "https://registry.yarnpkg.com/traverse/-/traverse-0.6.6.tgz#cbdf560fd7b9af632502fed40f918c157ea97137"
   integrity sha1-y99WD9e5r2MlAv7UD5GMFX6pcTc=
 
-ts-interface-checker@^0.1.12:
-  version "0.1.12"
-  resolved "https://registry.yarnpkg.com/ts-interface-checker/-/ts-interface-checker-0.1.12.tgz#5cf69fa301778a412f4b2f564533576516fff019"
-  integrity sha512-zfJsb81glBbt4iKclqwWj8ESP2qUq1tccdnYpbUqEy7jj2JFaN09vpgtnPtKmL2jRd/U80rYLo5H4ErxJSAXQQ==
+ts-interface-checker@^0.1.13:
+  version "0.1.13"
+  resolved "https://registry.yarnpkg.com/ts-interface-checker/-/ts-interface-checker-0.1.13.tgz#784fd3d679722bc103b1b4b8030bcddb5db2a699"
+  integrity sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==
 
 ts-pnp@^1.1.6:
   version "1.2.0"
